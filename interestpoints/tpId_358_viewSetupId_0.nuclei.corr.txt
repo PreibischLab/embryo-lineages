@@ -1,0 +1,13 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+18	358	1	nuclei	48
+32	358	1	nuclei	14
+34	358	1	nuclei	89
+66	358	1	nuclei	155
+77	358	1	nuclei	138
+98	358	1	nuclei	105
+99	358	1	nuclei	111
+121	358	1	nuclei	52
+138	358	1	nuclei	75
+145	358	1	nuclei	144
+146	358	1	nuclei	0
+160	358	1	nuclei	83

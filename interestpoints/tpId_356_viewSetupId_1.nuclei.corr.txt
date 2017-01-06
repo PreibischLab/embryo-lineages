@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+35	356	0	nuclei	0
+44	356	0	nuclei	8
+60	356	0	nuclei	13
+40	356	0	nuclei	15
+23	356	0	nuclei	23
+107	356	0	nuclei	37
+85	356	0	nuclei	91
+104	356	0	nuclei	94
+78	356	0	nuclei	100
+49	356	0	nuclei	105
+72	356	0	nuclei	106
+70	356	0	nuclei	135
+87	356	0	nuclei	163

@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+2	1	1	nuclei	4
+6	1	1	nuclei	5
+8	1	1	nuclei	8
+9	1	1	nuclei	9
+10	1	1	nuclei	10
+11	1	1	nuclei	11
+12	1	1	nuclei	12
+18	1	1	nuclei	19
+19	1	1	nuclei	18
+20	1	1	nuclei	21
+22	1	1	nuclei	22
+23	1	1	nuclei	23
+24	1	1	nuclei	25
