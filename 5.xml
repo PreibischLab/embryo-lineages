@@ -16,6 +16,7 @@
         <attributes>
           <illumination>0</illumination>
           <channel>0</channel>
+          <tile>0</tile>
           <angle>0</angle>
         </attributes>
       </ViewSetup>
@@ -29,6 +30,7 @@
         <attributes>
           <illumination>0</illumination>
           <channel>0</channel>
+          <tile>0</tile>
           <angle>1</angle>
         </attributes>
       </ViewSetup>
@@ -43,6 +45,12 @@
           <id>0</id>
           <name>561</name>
         </Channel>
+      </Attributes>
+      <Attributes name="tile">
+        <Tile>
+          <id>0</id>
+          <name>0</name>
+        </Tile>
       </Attributes>
       <Attributes name="angle">
         <Angle>
@@ -22652,6 +22660,10 @@
     <BoundingBoxDefinition name="My Bounding Box">
       <min>69 883 124</min>
       <max>667 1510 764</max>
+    </BoundingBoxDefinition>
+    <BoundingBoxDefinition name="My Bounding Box1">
+      <min>57 486 86</min>
+      <max>295 768 368</max>
     </BoundingBoxDefinition>
   </BoundingBoxes>
 </SpimData>
