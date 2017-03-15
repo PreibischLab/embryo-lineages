@@ -11344,15 +11344,15 @@
     </AnalyzerCollection>
   </Settings>
   <GUIState>
-    <View key="MaMuT Viewer" x="2630" y="77" width="1293" height="1104" />
+    <View key="MaMuT Viewer" x="2625" y="74" width="1293" height="1104" />
     <View key="MaMuT Viewer" x="3936" y="78" width="1136" height="1059" />
     <View key="TRACKSCHEME" x="0" y="24" width="2560" height="1416" />
     <SetupAssignments>
       <ConverterSetups>
         <ConverterSetup>
           <id>0</id>
-          <min>32499.0</min>
-          <max>35500.0</max>
+          <min>65535.0</min>
+          <max>65535.0</max>
           <color>-1</color>
           <groupId>0</groupId>
         </ConverterSetup>
@@ -11364,8 +11364,8 @@
           <fullRangeMax>65535.0</fullRangeMax>
           <rangeMin>0.0</rangeMin>
           <rangeMax>65535.0</rangeMax>
-          <currentMin>32499.0</currentMin>
-          <currentMax>35500.0</currentMax>
+          <currentMin>65535.0</currentMin>
+          <currentMax>65535.0</currentMax>
         </MinMaxGroup>
       </MinMaxGroups>
     </SetupAssignments>
