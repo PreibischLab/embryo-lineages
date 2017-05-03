@@ -48,6 +48,7 @@ public class CountNuclei {
 			
 			// TODO: FIND OUT WHY THE NUMBER OF SPOTS IS WRONG!
 			// DEBUG: REMOVE WHEN FIXED
+			// SOLUTION: SOME IMAGES WERE NOT SEGMENTATED 
 			numTimePoints = 110;
 			
 			System.out.println(numTimePoints);
@@ -60,6 +61,7 @@ public class CountNuclei {
 				if (tFrame.getNodeName().matches("SpotsInFrame")){						
 					NodeList spots = tFrame.getElementsByTagName("Spot");
 					if (debug) System.out.println(j + " " + spots.getLength());
+					// TODO: add the correction to the total number (# of points that disappear)
 					spotsNumberPerFrame[j] = spots.getLength();
 				}
 				else
@@ -71,7 +73,15 @@ public class CountNuclei {
 			System.out.println("Something went wrong. Use debug varaible to find a bug.");
 		}
 	}
-
+	
+	// this fix is empirical 
+	// some nuclei might still be missing 
+	public static void fixMissingNuclei(long[] numMissingNuclei){
+		for (int j = 0; j < numMissingNuclei.length; j++){
+			// if (j >= )
+		}
+	}
+	
 	// TODO: adjust to the cases when the number of the nuclei is not in the list
 	// returns the time Frame for the given index in the spotsNumberPerFrame
 	public long idxToTimeFrame(long idx, long timeStep){
@@ -82,6 +92,7 @@ public class CountNuclei {
 		long idx = Arrays.binarySearch(spotsNumberPerFrame, numSpots);
 		// idx can be negative, check the binarySearch(...) description
 		// TODO: add a smarter way to fix this problem
+		// there should be a loop to check that it is really the last frame with the given number of spots 
 		if (idx < 0){
 			idx = -(idx + 1); 
 		}
@@ -93,14 +104,13 @@ public class CountNuclei {
 		createLookUpTable(file);	
 		long index = getIdx(numQuerySpots, spotsNumberPerFrame);
 		long timePoint = idxToTimeFrame(index, timeStep);
-		System.out.println("Your idx shiould be " + index);
-		System.out.println("Your timepoint shiould be " + timePoint);
+		System.out.println("Your idx should be " + index);
+		System.out.println("Your timepoint should be " + timePoint);
 	}
-	
 	
 	public static void main(String[] args){
 		// file with the annotation
-		File file = new File("/home/milkyklim/Documents/experiment/Deconvolved-mamut (copy).xml");
+		File file = new File("/Users/kkolyva/Documents/experiment/Raw-mamut.xml");
 		// number of the cells in the static image
 		// TODO: write a smart algorithm to count the cells
 		long numQuerySpots = 169; 
