@@ -1,4 +1,7 @@
 .DS_Store
+converter/target/
+converter/.settings/
+movie_lineage
 3dProjections of Decon-correct.tif
 5.h5
 Decon-correct-cropped.tif
