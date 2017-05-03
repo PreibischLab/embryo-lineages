@@ -5,14 +5,9 @@ import java.util.Arrays;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class CountNuclei {
@@ -49,13 +44,18 @@ public class CountNuclei {
 			// TODO: FIND OUT WHY THE NUMBER OF SPOTS IS WRONG!
 			// DEBUG: REMOVE WHEN FIXED
 			// SOLUTION: SOME IMAGES WERE NOT SEGMENTATED 
-			numTimePoints = 110;
+			// numTimePoints = 110;
 			
 			System.out.println(numTimePoints);
 			
 			spotsNumberPerFrame = new long[numTimePoints];
 			if (debug) System.out.println("# time frames: " + tFrameList.getLength());
-
+			
+			
+			long [] numMissingNuclei = new long[numTimePoints];  
+			fixMissingNuclei(numMissingNuclei);
+			
+			
 			for (int j = 0; j < numTimePoints; j++){
 				Element tFrame = (Element) tFrameList.item(j);
 				if (tFrame.getNodeName().matches("SpotsInFrame")){						
@@ -63,6 +63,7 @@ public class CountNuclei {
 					if (debug) System.out.println(j + " " + spots.getLength());
 					// TODO: add the correction to the total number (# of points that disappear)
 					spotsNumberPerFrame[j] = spots.getLength();
+					spotsNumberPerFrame[j] += numMissingNuclei[j]; // add missing nuclei
 				}
 				else
 					if (debug) System.out.println("IT'S A TRAP!");
@@ -76,9 +77,31 @@ public class CountNuclei {
 	
 	// this fix is empirical 
 	// some nuclei might still be missing 
-	public static void fixMissingNuclei(long[] numMissingNuclei){
+	public void fixMissingNuclei(long[] numMissingNuclei){
 		for (int j = 0; j < numMissingNuclei.length; j++){
-			// if (j >= )
+			if (j >= 181)
+				numMissingNuclei[j] += 1;
+			if (j >= 170)
+				numMissingNuclei[j] += 1;
+			if (j >= 172)
+				numMissingNuclei[j] += 1;
+			if (j >= 177)
+				numMissingNuclei[j] += 1;
+			if (j >= 178)
+				numMissingNuclei[j] += 1;
+			if (j >= 181)
+				numMissingNuclei[j] += 1;
+			if (j >= 160)
+				numMissingNuclei[j] += 1;
+			if (j >= 174)
+				numMissingNuclei[j] += 1;
+			if (j >= 178)
+				numMissingNuclei[j] += 1;
+			if (j >= 176)
+				numMissingNuclei[j] += 1;
+		
+			if (j >= 103) // germ  ? 
+				numMissingNuclei[j] += 1;
 		}
 	}
 	
