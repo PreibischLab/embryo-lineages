@@ -60,7 +60,7 @@ public class CountCells {
 				Element tFrame = (Element) tFrameList.item(j);
 				if (tFrame.getNodeName().matches("SpotsInFrame")){						
 					NodeList spots = tFrame.getElementsByTagName("Spot");
-					if (debug) System.out.println(j + " " + spots.getLength());
+					if (debug) System.out.println(j + " " + spots.getLength() + " " + (spots.getLength() + numMissingNuclei[j]));
 					// TODO: add the correction to the total number (# of points that disappear)
 					spotsNumberPerFrame[j] = spots.getLength();
 					spotsNumberPerFrame[j] += numMissingNuclei[j]; // add missing nuclei
@@ -99,7 +99,9 @@ public class CountCells {
 				numMissingNuclei[j] += 1;
 			if (j >= 176)
 				numMissingNuclei[j] += 1;
-		
+			if (j >= 177)
+				numMissingNuclei[j] += 1;
+			
 			if (j >= 103) // germ  ? 
 				numMissingNuclei[j] += 1;
 		}
