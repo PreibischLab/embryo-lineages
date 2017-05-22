@@ -1,4 +1,4 @@
-package nucleimapping;
+package cellsmapping;
 
 import java.io.File;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-public class CountNuclei {
+public class CountCells {
 
 	long timeStep = 30; // seconds, time step between acquisitions
 	long [] spotsNumberPerFrame; // stores number of nuclei per frame (by definition this array sorted in non-descending order)
@@ -133,11 +133,11 @@ public class CountNuclei {
 	
 	public static void main(String[] args){
 		// file with the annotation
-		File file = new File("/Users/kkolyva/Documents/experiment/Raw-mamut.xml");
+		File file = new File("/home/milkyklim/Documents/experiment/Deconvolved-mamut-debug.xml");
 		// number of the cells in the static image
 		// TODO: write a smart algorithm to count the cells
 		long numQuerySpots = 169; 
-		new CountNuclei().runSearch(file, numQuerySpots);
+		new CountCells().runSearch(file, numQuerySpots);
 		System.out.println("Doge!");
 	}
 
