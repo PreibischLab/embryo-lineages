@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+41	366	1	Test5	19
+36	366	1	Test5	27
+40	366	1	Test5	12
+26	366	1	Test5	15
+39	366	1	Test5	5
+27	366	1	Test5	37
+28	366	1	Test5	33
+20	366	1	Test5	18
+31	366	1	Test5	3
+34	366	1	Test5	4
+18	366	1	Test5	14
+13	366	1	Test5	10
+15	366	1	Test5	20

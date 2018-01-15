@@ -1,0 +1,15 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+38	371	1	Test5	23
+34	371	1	Test5	32
+37	371	1	Test5	18
+25	371	1	Test5	22
+36	371	1	Test5	5
+30	371	1	Test5	19
+26	371	1	Test5	13
+20	371	1	Test5	21
+10	371	1	Test5	8
+6	371	1	Test5	7
+27	371	1	Test5	3
+18	371	1	Test5	0
+17	371	1	Test5	17
+12	371	1	Test5	11

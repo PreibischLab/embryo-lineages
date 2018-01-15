@@ -1,0 +1,3 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+0	622	2	TEST3	0
+0	622	1	TEST3	0

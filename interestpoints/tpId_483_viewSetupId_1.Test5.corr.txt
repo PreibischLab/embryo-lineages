@@ -1,0 +1,16 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+28	483	2	Test5	49
+45	483	2	Test5	24
+33	483	2	Test5	51
+22	483	2	Test5	52
+13	483	2	Test5	41
+18	483	2	Test5	50
+8	483	2	Test5	48
+44	483	2	Test5	34
+41	483	2	Test5	45
+24	483	2	Test5	31
+30	483	2	Test5	3
+9	483	2	Test5	39
+10	483	2	Test5	43
+1	483	2	Test5	42
+17	483	2	Test5	16

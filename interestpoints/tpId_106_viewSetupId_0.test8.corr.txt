@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+9	106	1	test8	18
+10	106	1	test8	14
+1	106	1	test8	12
+0	106	1	test8	10
+2	106	1	test8	17
+3	106	1	test8	15
+4	106	1	test8	8
+11	106	1	test8	13
+7	106	1	test8	7
+5	106	1	test8	6
+8	106	1	test8	2
+12	106	1	test8	4
+16	106	1	test8	16
