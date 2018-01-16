@@ -1,15 +1,18 @@
 .DS_Store
-converter/target/
-converter/.settings/
-movie_lineage
-3dProjections of Decon-correct.tif
-5.h5
-Decon-correct-cropped.tif
-Decon-correct.tif
-Deconvolved.h5
-MAX_Decon-1.avi
-beads.h5
-original PSF of viewsetup 0b.tif
-original PSF of viewsetup 1b.tif
-out-1.avi
-out-1arrow.avi
+2017-05-01-experiment-klim/converter/target/
+2017-05-01-experiment-klim/converter/.settings/
+2017-05-01-experiment-klim/converter/.classpath
+2017-05-01-experiment-klim/converter/.classpath
+2017-05-01-experiment-klim/converter/.project
+2017-05-01-experiment-klim/movie_lineage
+2017-05-01-experiment-klim/3dProjections of Decon-correct.tif
+2017-05-01-experiment-klim/5.h5
+2017-05-01-experiment-klim/Decon-correct-cropped.tif
+2017-05-01-experiment-klim/Decon-correct.tif
+2017-05-01-experiment-klim/Deconvolved.h5
+2017-05-01-experiment-klim/MAX_Decon-1.avi
+2017-05-01-experiment-klim/beads.h5
+2017-05-01-experiment-klim/original PSF of viewsetup 0b.tif
+2017-05-01-experiment-klim/original PSF of viewsetup 1b.tif
+2017-05-01-experiment-klim/out-1.avi
+2017-05-01-experiment-klim/out-1arrow.avi
