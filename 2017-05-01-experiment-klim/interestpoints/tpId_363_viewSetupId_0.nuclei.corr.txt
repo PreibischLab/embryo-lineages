@@ -1,0 +1,15 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+2	363	1	nuclei	52
+7	363	1	nuclei	22
+14	363	1	nuclei	85
+18	363	1	nuclei	84
+19	363	1	nuclei	129
+28	363	1	nuclei	3
+29	363	1	nuclei	32
+46	363	1	nuclei	50
+52	363	1	nuclei	83
+97	363	1	nuclei	9
+113	363	1	nuclei	39
+129	363	1	nuclei	107
+150	363	1	nuclei	76
+157	363	1	nuclei	25

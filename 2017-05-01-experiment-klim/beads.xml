@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ImageLoader format="bdv.hdf5">
+      <hdf5 type="relative">beads.h5</hdf5>
+    </ImageLoader>
+    <ViewSetups>
+      <ViewSetup>
+        <id>0</id>
+        <size>600 1920 79</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.0915256142616272 0.0915256142616272 1.0</size>
+        </voxelSize>
+        <attributes>
+          <illumination>0</illumination>
+          <channel>0</channel>
+          <angle>0</angle>
+        </attributes>
+      </ViewSetup>
+      <ViewSetup>
+        <id>1</id>
+        <size>600 1920 78</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.0915256142616272 0.0915256142616272 1.0</size>
+        </voxelSize>
+        <attributes>
+          <illumination>0</illumination>
+          <channel>0</channel>
+          <angle>1</angle>
+        </attributes>
+      </ViewSetup>
+      <Attributes name="illumination">
+        <Illumination>
+          <id>0</id>
+          <name>0</name>
+        </Illumination>
+      </Attributes>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+          <name>561</name>
+        </Channel>
+      </Attributes>
+      <Attributes name="angle">
+        <Angle>
+          <id>0</id>
+          <name>180</name>
+        </Angle>
+        <Angle>
+          <id>1</id>
+          <name>270</name>
+        </Angle>
+      </Attributes>
+    </ViewSetups>
+    <Timepoints type="pattern">
+      <integerpattern>0</integerpattern>
+    </Timepoints>
+    <MissingViews />
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D on [Manually removed (c=561)]</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [Manually removed (c=561)]</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [Manually removed (c=561)]</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [beads (c=561)]</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Fast 3d geometric hashing (rotation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [beads (c=561)]</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>calibration</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 10.925903180955297 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="0" setup="1">
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D on [Manually removed (c=561)]</Name>
+        <affine>0.9987303116110446 -4.4617485109124146E-5 -0.0013870561392471392 1.0358527886709723 1.2514707443478726E-4 1.0000557821280156 5.032424183264439E-4 -0.3768552176647515 0.003997186818968185 4.255844726659998E-4 0.998868863085442 -1.5109367718636122</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [Manually removed (c=561)]</Name>
+        <affine>0.9992028874153156 -3.1209398736994036E-4 0.0014829447495117922 -0.32168805688822794 -9.085101226030399E-5 0.9999891290986154 -5.768732410639427E-5 0.12205907571757438 6.199505039423941E-4 3.2614628094134606E-4 1.0009702256490394 -0.9198664363330659</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [Manually removed (c=561)]</Name>
+        <affine>1.0002079616995698 -2.0826628109413828E-4 4.6269390237300834E-5 -0.03451839878471158 -6.360538186687022E-5 0.9999618397030485 -1.8887779894723481E-4 0.1388374186538198 6.746398164076947E-4 -3.205565748811387E-5 1.0004438442535062 -0.38639024853509896</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Redundant geometric local descriptor matching (translation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [beads (c=561)]</Name>
+        <affine>0.9991003593983339 1.1065118260906775E-4 0.003277768886999625 -0.9352386373877117 -0.002004338303793173 0.9998706358998504 -0.0021734937920926158 1.7172799574093718 5.30588183483599E-4 -4.0531386312673374E-4 1.0026956888152465 -0.7294856727547264</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>Fast 3d geometric hashing (rotation invariant), AffineModel3D regularized with an RigidModel3D, lambda = 0.1 on [beads (c=561)]</Name>
+        <affine>0.012828407113114552 0.007476471702943641 -0.9732554437097393 796.1266882604477 -0.015304312519040892 1.000149731442566 0.03039133704274461 23.06755004960846 1.0218040422430643 -0.005777303653724255 -0.005995922435844595 177.64218861840186</affine>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <Name>calibration</Name>
+        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 10.925903180955297 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+  <ViewInterestPoints>
+    <ViewInterestPointsFile timepoint="0" setup="0" label="Manually removed" params="manually removed detections from 'beads'">interestpoints/tpId_0_viewSetupId_0.Manually removed</ViewInterestPointsFile>
+    <ViewInterestPointsFile timepoint="0" setup="0" label="beads" params="DOG s=2.3239998817443848 t=0.007973356172442436 min=false max=true imageSigmaX=0.5 imageSigmaY=0.5 imageSigmaZ=0.5 downsampleXY=1 downsampleZ=1 additionalSigmaX=0.0 additionalSigmaY=0.0 additionalSigmaZ=0.0 minIntensity=NaN maxIntensity=NaN">interestpoints/tpId_0_viewSetupId_0.beads</ViewInterestPointsFile>
+    <ViewInterestPointsFile timepoint="0" setup="1" label="Manually removed" params="manually removed detections from 'beads'">interestpoints/tpId_0_viewSetupId_1.Manually removed</ViewInterestPointsFile>
+    <ViewInterestPointsFile timepoint="0" setup="1" label="beads" params="DOG s=2.324 t=0.008 min=false max=true imageSigmaX=0.5 imageSigmaY=0.5 imageSigmaZ=0.5 downsampleXY=1 downsampleZ=1 additionalSigmaX=0.0 additionalSigmaY=0.0 additionalSigmaZ=0.0 minIntensity=NaN maxIntensity=NaN">interestpoints/tpId_0_viewSetupId_1.beads</ViewInterestPointsFile>
+  </ViewInterestPoints>
+  <BoundingBoxes />
+</SpimData>
