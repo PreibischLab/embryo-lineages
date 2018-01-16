@@ -1,4 +1,6 @@
 .DS_Store
+
+# first embryo dataset
 2017-05-01-experiment-klim/converter/target/
 2017-05-01-experiment-klim/converter/.settings/
 2017-05-01-experiment-klim/converter/.classpath
@@ -16,3 +18,7 @@
 2017-05-01-experiment-klim/original PSF of viewsetup 1b.tif
 2017-05-01-experiment-klim/out-1.avi
 2017-05-01-experiment-klim/out-1arrow.avi
+
+# second embryo dataset
+2018-01-15-experiment-lennon/dataset.h5
+

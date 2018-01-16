@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+44	364	1	Test5	20
+43	364	1	Test5	18
+29	364	1	Test5	17
+42	364	1	Test5	5
+33	364	1	Test5	35
+32	364	1	Test5	9
+23	364	1	Test5	15
+34	364	1	Test5	4
+36	364	1	Test5	3
+16	364	1	Test5	26
+21	364	1	Test5	16
+14	364	1	Test5	10
+15	364	1	Test5	21

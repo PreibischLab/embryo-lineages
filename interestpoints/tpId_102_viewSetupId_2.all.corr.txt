@@ -1,0 +1,14 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+6	100	1	all	2
+2	100	1	all	8
+11	100	2	all	10
+6	104	2	all	6
+6	106	0	all	5
+2	106	2	all	2
+6	103	0	all	5
+6	105	0	all	5
+2	105	2	all	2
+6	107	0	all	4
+6	101	0	all	5
+2	101	2	all	2
+11	101	2	all	11

@@ -1,0 +1,12 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+1	60	0	fu	1
+0	60	1	fu	1
+1	57	0	fu	1
+1	59	0	fu	1
+1	64	0	fu	1
+1	56	0	fu	2
+1	65	0	fu	1
+1	63	0	fu	1
+1	62	0	fu	0
+1	66	0	fu	1
+1	58	0	fu	1

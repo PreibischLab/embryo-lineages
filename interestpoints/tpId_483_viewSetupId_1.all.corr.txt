@@ -1,0 +1,2 @@
+id	corresponding_timepoint_id	corresponding_viewsetup_id	corresponding_label	corresponding_id
+33	485	2	all	6
