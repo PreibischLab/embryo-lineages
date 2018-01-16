@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackMate version="3.5.1-SNAPSHOT">
+  <Model spatialunits="pixels" timeunits="frames">
+    <FeatureDeclarations>
+      <SpotFeatures>
+        <Feature feature="QUALITY" name="Quality" shortname="Quality" dimension="QUALITY" isint="false" />
+        <Feature feature="POSITION_X" name="X" shortname="X" dimension="POSITION" isint="false" />
+        <Feature feature="POSITION_Y" name="Y" shortname="Y" dimension="POSITION" isint="false" />
+        <Feature feature="POSITION_Z" name="Z" shortname="Z" dimension="POSITION" isint="false" />
+        <Feature feature="POSITION_T" name="T" shortname="T" dimension="TIME" isint="false" />
+        <Feature feature="FRAME" name="Frame" shortname="Frame" dimension="NONE" isint="true" />
+        <Feature feature="RADIUS" name="Radius" shortname="R" dimension="LENGTH" isint="false" />
+        <Feature feature="VISIBILITY" name="Visibility" shortname="Visibility" dimension="NONE" isint="true" />
+        <Feature feature="SOURCE_ID" name="Source ID" shortname="Source" dimension="NONE" isint="true" />
+        <Feature feature="CELL_DIVISION_TIME" name="Cell division time" shortname="Cell div. time" dimension="TIME" isint="false" />
+        <Feature feature="MANUAL_COLOR" name="Manual spot color" shortname="Spot color" dimension="NONE" isint="true" />
+      </SpotFeatures>
+      <EdgeFeatures>
+        <Feature feature="SPOT_SOURCE_ID" name="Source spot ID" shortname="Source ID" dimension="NONE" isint="true" />
+        <Feature feature="SPOT_TARGET_ID" name="Target spot ID" shortname="Target ID" dimension="NONE" isint="true" />
+        <Feature feature="LINK_COST" name="Link cost" shortname="Cost" dimension="NONE" isint="false" />
+        <Feature feature="VELOCITY" name="Velocity" shortname="V" dimension="VELOCITY" isint="false" />
+        <Feature feature="DISPLACEMENT" name="Displacement" shortname="D" dimension="LENGTH" isint="false" />
+        <Feature feature="MANUAL_COLOR" name="Manual edge color" shortname="Edge color" dimension="NONE" isint="true" />
+      </EdgeFeatures>
+      <TrackFeatures>
+        <Feature feature="TRACK_INDEX" name="Track index" shortname="Index" dimension="NONE" isint="true" />
+        <Feature feature="TRACK_ID" name="Track ID" shortname="ID" dimension="NONE" isint="true" />
+        <Feature feature="TRACK_DURATION" name="Duration of track" shortname="Duration" dimension="TIME" isint="false" />
+        <Feature feature="TRACK_START" name="Track start" shortname="T start" dimension="TIME" isint="false" />
+        <Feature feature="TRACK_STOP" name="Track stop" shortname="T stop" dimension="TIME" isint="false" />
+        <Feature feature="TRACK_DISPLACEMENT" name="Track displacement" shortname="Displacement" dimension="LENGTH" isint="false" />
+        <Feature feature="NUMBER_SPOTS" name="Number of spots in track" shortname="N spots" dimension="NONE" isint="true" />
+        <Feature feature="NUMBER_GAPS" name="Number of gaps" shortname="Gaps" dimension="NONE" isint="true" />
+        <Feature feature="LONGEST_GAP" name="Longest gap" shortname="Longest gap" dimension="NONE" isint="true" />
+        <Feature feature="NUMBER_SPLITS" name="Number of split events" shortname="Splits" dimension="NONE" isint="true" />
+        <Feature feature="NUMBER_MERGES" name="Number of merge events" shortname="Merges" dimension="NONE" isint="true" />
+        <Feature feature="NUMBER_COMPLEX" name="Complex points" shortname="Complex" dimension="NONE" isint="true" />
+        <Feature feature="DIVISION_TIME_MEAN" name="Mean cell division time" shortname="Mean div. time" dimension="TIME" isint="false" />
+        <Feature feature="DIVISION_TIME_STD" name="Std cell division time" shortname="Std div. time" dimension="TIME" isint="false" />
+      </TrackFeatures>
+    </FeatureDeclarations>
+    <AllSpots nspots="7">
+      <SpotsInFrame frame="0">
+        <Spot ID="3" name="ID3" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="0.0" POSITION_X="209.52206050358734" POSITION_Y="537.3735662386327" FRAME="0" POSITION_Z="215.7865878238671" />
+      </SpotsInFrame>
+      <SpotsInFrame frame="1">
+        <Spot ID="6" name="ID6" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="1.0" POSITION_X="206.01431476488614" POSITION_Y="533.8658204999316" FRAME="1" POSITION_Z="215.78658782386714" />
+        <Spot ID="9" name="ID9" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="1.0" POSITION_X="253.36888223735332" POSITION_Y="565.4355321482432" FRAME="1" POSITION_Z="215.78658782386717" />
+      </SpotsInFrame>
+      <SpotsInFrame frame="2">
+        <Spot ID="18" name="ID18" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="2.0" POSITION_X="167.42911163917216" POSITION_Y="563.6816592788928" FRAME="2" POSITION_Z="215.78658782386725" />
+        <Spot ID="12" name="ID12" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="2.0" POSITION_X="256.8766279760546" POSITION_Y="568.9432778869445" FRAME="2" POSITION_Z="215.7865878238672" />
+        <Spot ID="15" name="ID15" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="2.0" POSITION_X="241.0917721518989" POSITION_Y="618.0517182287625" FRAME="2" POSITION_Z="215.78658782386722" />
+      </SpotsInFrame>
+      <SpotsInFrame frame="3">
+        <Spot ID="21" name="ID21" VISIBILITY="1" RADIUS="10.0" QUALITY="-1.0" SOURCE_ID="0" POSITION_T="3.0" POSITION_X="239.3378992825484" POSITION_Y="621.5594639674639" FRAME="3" POSITION_Z="215.78658782386728" />
+      </SpotsInFrame>
+    </AllSpots>
+    <AllTracks>
+      <Track name="Track_0" TRACK_INDEX="0" TRACK_ID="0" TRACK_DURATION="3.0" TRACK_START="0.0" TRACK_STOP="3.0" TRACK_DISPLACEMENT="89.309851743815" NUMBER_SPOTS="7" NUMBER_GAPS="0" LONGEST_GAP="0" NUMBER_SPLITS="2" NUMBER_MERGES="0" NUMBER_COMPLEX="0" DIVISION_TIME_MEAN="NaN" DIVISION_TIME_STD="NaN">
+        <Edge SPOT_SOURCE_ID="3" SPOT_TARGET_ID="6" LINK_COST="-1.0" VELOCITY="4.960701597027632" DISPLACEMENT="4.960701597027632" />
+        <Edge SPOT_SOURCE_ID="6" SPOT_TARGET_ID="15" LINK_COST="-1.0" VELOCITY="91.20138920623346" DISPLACEMENT="91.20138920623346" />
+        <Edge SPOT_SOURCE_ID="9" SPOT_TARGET_ID="18" LINK_COST="-1.0" VELOCITY="85.95766539704208" DISPLACEMENT="85.95766539704208" />
+        <Edge SPOT_SOURCE_ID="12" SPOT_TARGET_ID="21" LINK_COST="-1.0" VELOCITY="55.46232993522952" DISPLACEMENT="55.46232993522952" />
+        <Edge SPOT_SOURCE_ID="6" SPOT_TARGET_ID="12" LINK_COST="-1.0" VELOCITY="61.785135121068635" DISPLACEMENT="61.785135121068635" />
+        <Edge SPOT_SOURCE_ID="3" SPOT_TARGET_ID="9" LINK_COST="-1.0" VELOCITY="52.057830408736685" DISPLACEMENT="52.057830408736685" />
+      </Track>
+    </AllTracks>
+    <FilteredTracks>
+      <TrackID TRACK_ID="0" />
+    </FilteredTracks>
+  </Model>
+  <Settings>
+    <ImageData filename="5.xml" folder="/home/milkyklim/Documents/embryo-lineages/2017-05-01-experiment-klim" width="600" height="1920" nslices="79" nframes="500" pixelwidth="1.0" pixelheight="1.0" voxeldepth="1.0" timeinterval="1.0" />
+    <InitialSpotFilter feature="QUALITY" value="0.0" isabove="true" />
+    <SpotFilterCollection />
+    <TrackFilterCollection />
+    <AnalyzerCollection>
+      <SpotAnalyzers>
+        <Analyzer key="Spot Source ID" />
+        <Analyzer key="CELL_DIVISION_TIME_ON_SPOTS" />
+        <Analyzer key="MANUAL_SPOT_COLOR_ANALYZER" />
+      </SpotAnalyzers>
+      <EdgeAnalyzers>
+        <Analyzer key="Edge target" />
+        <Analyzer key="Edge velocity" />
+        <Analyzer key="MANUAL_EDGE_COLOR_ANALYZER" />
+      </EdgeAnalyzers>
+      <TrackAnalyzers>
+        <Analyzer key="Track index" />
+        <Analyzer key="Track duration" />
+        <Analyzer key="Branching analyzer" />
+        <Analyzer key="CELL_DIVISION_TIME_ANALYZER" />
+      </TrackAnalyzers>
+    </AnalyzerCollection>
+  </Settings>
+  <GUIState>
+    <View key="TRACKSCHEME" x="1469" y="874" width="1378" height="600" />
+    <View key="MaMuT Viewer" x="1472" y="243" width="790" height="570" />
+    <SetupAssignments>
+      <ConverterSetups>
+        <ConverterSetup>
+          <id>0</id>
+          <min>210.0</min>
+          <max>571.0</max>
+          <color>-1</color>
+          <groupId>0</groupId>
+        </ConverterSetup>
+        <ConverterSetup>
+          <id>1</id>
+          <min>200.0</min>
+          <max>531.0</max>
+          <color>-1</color>
+          <groupId>1</groupId>
+        </ConverterSetup>
+      </ConverterSetups>
+      <MinMaxGroups>
+        <MinMaxGroup>
+          <id>0</id>
+          <fullRangeMin>0.0</fullRangeMin>
+          <fullRangeMax>65535.0</fullRangeMax>
+          <rangeMin>0.0</rangeMin>
+          <rangeMax>65535.0</rangeMax>
+          <currentMin>210.0</currentMin>
+          <currentMax>571.0</currentMax>
+        </MinMaxGroup>
+        <MinMaxGroup>
+          <id>1</id>
+          <fullRangeMin>0.0</fullRangeMin>
+          <fullRangeMax>65535.0</fullRangeMax>
+          <rangeMin>0.0</rangeMin>
+          <rangeMax>65535.0</rangeMax>
+          <currentMin>200.0</currentMin>
+          <currentMax>531.0</currentMax>
+        </MinMaxGroup>
+      </MinMaxGroups>
+    </SetupAssignments>
+    <Bookmarks />
+  </GUIState>
+</TrackMate>
